@@ -1,32 +1,33 @@
-# Gradle files 
-.gradle/ 
-/build/ 
-*/build/ 
-# Local configuration file (sdk path, etc) 
-local.properties 
-# Log files 
-*.log 
-# Android Studio Navigation editor temp files 
-.idea/navEditor/ 
-# Android Studio captures folder 
-captures/ 
-# IntelliJ 
-.idea/workspace.xml 
-.idea/tasks.xml 
-.idea/dictionaries 
-.idea/libraries 
-# Keystore files 
-*.jks 
-# External native build folder generated in Android Studio 2.2+ 
-.externalNativeBuild/ 
-# Google Services (e.g. APIs or Firebase) 
-google-services.json 
-# Android profiling 
-*.hprof 
-# Eclipse 
-.metadata/ 
-*.tmp 
-*.bak 
-*.swp 
-.idea/ 
-*.swo 
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
